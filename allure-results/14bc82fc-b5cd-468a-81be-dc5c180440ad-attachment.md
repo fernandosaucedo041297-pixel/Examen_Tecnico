@@ -1,0 +1,154 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - button "$ Currency ":
+    - strong: $
+    - text: Currency 
+  - list:
+    - listitem:
+      - link "":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/contact
+      - text: "123456789"
+    - listitem:
+      - link " My Account":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/account
+    - listitem:
+      - link " Wish List (0)":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/wishlist
+    - listitem:
+      - link " Shopping Cart":
+        - /url: http://opencart.abstracta.us:80/index.php?route=checkout/cart
+    - listitem:
+      - link " Checkout":
+        - /url: https://opencart.abstracta.us:443/index.php?route=checkout/checkout
+- banner:
+  - heading "Your Store" [level=1]:
+    - link "Your Store":
+      - /url: http://opencart.abstracta.us:80/index.php?route=common/home
+  - textbox "Search"
+  - button ""
+  - button " 2 item(s) - $399.98"
+- navigation:
+  - list:
+    - listitem:
+      - link "Desktops":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=20
+    - listitem:
+      - link "Laptops & Notebooks":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=18
+    - listitem:
+      - link "Components":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=25
+    - listitem:
+      - link "Tablets":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=57
+    - listitem:
+      - link "Software":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=17
+    - listitem:
+      - link "Phones & PDAs":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=24
+    - listitem:
+      - link "Cameras":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=33
+    - listitem:
+      - link "MP3 Players":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=34
+- list:
+  - listitem:
+    - link "":
+      - /url: http://opencart.abstracta.us:80/index.php?route=common/home
+  - listitem:
+    - link "Shopping Cart":
+      - /url: http://opencart.abstracta.us:80/index.php?route=checkout/cart
+  - listitem:
+    - link "Checkout":
+      - /url: https://opencart.abstracta.us:443/index.php?route=checkout/checkout
+- heading "Checkout" [level=1]
+- 'heading "Step 1: Checkout Options" [level=4]'
+- 'heading "Step 2: Billing Details " [level=4]':
+  - 'link "Step 2: Billing Details "':
+    - /url: "#collapse-payment-address"
+- 'heading "Step 3: Delivery Details " [level=4]':
+  - 'link "Step 3: Delivery Details "':
+    - /url: "#collapse-shipping-address"
+- 'heading "Step 4: Delivery Method " [level=4]':
+  - 'link "Step 4: Delivery Method " [expanded]':
+    - /url: "#collapse-shipping-method"
+- paragraph: Please select the preferred shipping method to use on this order.
+- paragraph:
+  - strong: Flat Rate
+- radio "Flat Shipping Rate - $5.00" [checked]
+- text: Flat Shipping Rate - $5.00
+- paragraph:
+  - strong: Add Comments About Your Order
+- paragraph:
+  - textbox: Prueba Fer
+- button "Continue"
+- 'heading "Step 5: Payment Method" [level=4]'
+- 'heading "Step 6: Confirm Order" [level=4]'
+- contentinfo:
+  - heading "Information" [level=5]
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=4
+    - listitem:
+      - link "Delivery Information":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=6
+    - listitem:
+      - link "Privacy Policy":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=3
+    - listitem:
+      - link "Terms & Conditions":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=5
+  - heading "Customer Service" [level=5]
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/contact
+    - listitem:
+      - link "Returns":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/return/add
+    - listitem:
+      - link "Site Map":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/sitemap
+  - heading "Extras" [level=5]
+  - list:
+    - listitem:
+      - link "Brands":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/manufacturer
+    - listitem:
+      - link "Gift Certificates":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/voucher
+    - listitem:
+      - link "Affiliate":
+        - /url: https://opencart.abstracta.us:443/index.php?route=affiliate/login
+    - listitem:
+      - link "Specials":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/special
+  - heading "My Account" [level=5]
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/account
+    - listitem:
+      - link "Order History":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/order
+    - listitem:
+      - link "Wish List":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/wishlist
+    - listitem:
+      - link "Newsletter":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/newsletter
+  - separator
+  - paragraph:
+    - text: Powered By
+    - link "OpenCart":
+      - /url: http://www.opencart.com
+    - text: Your Store © 2025
+- link "Bitnami":
+  - /url: /bitnami/index.html
+  - img "Bitnami"
+```

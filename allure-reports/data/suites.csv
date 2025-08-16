@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10332","login Exitoso","Google Chrome","Fri Aug 15 17:33:43 CST 2025","passed","Fri Aug 15 17:33:54 CST 2025","","mytest.spec.js","",""
+"","22389","Registro Exitoso","Google Chrome","Fri Aug 15 17:33:43 CST 2025","passed","Fri Aug 15 17:34:06 CST 2025","","mytest.spec.js","",""
+"","15341","Registro Fallido correo existente","Google Chrome","Fri Aug 15 17:33:43 CST 2025","passed","Fri Aug 15 17:33:59 CST 2025","","mytest.spec.js","",""
+"","9961","Recuperacion de contraseña","Google Chrome","Fri Aug 15 17:33:54 CST 2025","passed","Fri Aug 15 17:34:04 CST 2025","","mytest.spec.js","",""
+"","13126","Compra en el carrito your strore","Google Chrome","Fri Aug 15 17:33:54 CST 2025","passed","Fri Aug 15 17:34:08 CST 2025","","mytest.spec.js","",""
+"","10187","login fallido usuario invalido","Google Chrome","Fri Aug 15 17:33:43 CST 2025","passed","Fri Aug 15 17:33:53 CST 2025","","mytest.spec.js","",""
+"","30031","login fallido contraseña invalida","Google Chrome","Fri Aug 15 17:33:43 CST 2025","broken","Fri Aug 15 17:34:13 CST 2025","","mytest.spec.js","",""

@@ -1,0 +1,446 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - button "$ Currency ":
+    - strong: $
+    - text: Currency 
+  - list:
+    - listitem:
+      - link "":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/contact
+      - text: "123456789"
+    - listitem:
+      - link " My Account":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/account
+    - listitem:
+      - link " Wish List (0)":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/wishlist
+    - listitem:
+      - link " Shopping Cart":
+        - /url: http://opencart.abstracta.us:80/index.php?route=checkout/cart
+    - listitem:
+      - link " Checkout":
+        - /url: https://opencart.abstracta.us:443/index.php?route=checkout/checkout
+- banner:
+  - heading "Your Store" [level=1]:
+    - link "Your Store":
+      - /url: http://opencart.abstracta.us:80/index.php?route=common/home
+  - textbox "Search"
+  - button ""
+  - button " 2 item(s) - $399.98"
+- navigation:
+  - list:
+    - listitem:
+      - link "Desktops":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=20
+    - listitem:
+      - link "Laptops & Notebooks":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=18
+    - listitem:
+      - link "Components":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=25
+    - listitem:
+      - link "Tablets":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=57
+    - listitem:
+      - link "Software":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=17
+    - listitem:
+      - link "Phones & PDAs":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=24
+    - listitem:
+      - link "Cameras":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=33
+    - listitem:
+      - link "MP3 Players":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=34
+- list:
+  - listitem:
+    - link "":
+      - /url: http://opencart.abstracta.us:80/index.php?route=common/home
+  - listitem:
+    - link "Shopping Cart":
+      - /url: http://opencart.abstracta.us:80/index.php?route=checkout/cart
+  - listitem:
+    - link "Checkout":
+      - /url: https://opencart.abstracta.us:443/index.php?route=checkout/checkout
+- heading "Checkout" [level=1]
+- 'heading "Step 1: Checkout Options" [level=4]'
+- 'heading "Step 2: Billing Details " [level=4]':
+  - 'link "Step 2: Billing Details " [expanded]':
+    - /url: "#collapse-payment-address"
+- text: "* First Name"
+- textbox "* First Name": FRANCISCO
+- text: "* Last Name"
+- textbox "* Last Name": LOPEZ
+- text: Company
+- textbox "Company": LUX123
+- text: "* Address 1"
+- textbox "* Address 1": RIO LUNA
+- text: Address 2
+- textbox "Address 2": "#2"
+- text: "* City"
+- textbox "* City": CDMX
+- text: Post Code
+- textbox "Post Code": "06600"
+- text: "* Country"
+- combobox "* Country":
+  - option "--- Please Select ---"
+  - option "Aaland Islands"
+  - option "Afghanistan"
+  - option "Albania"
+  - option "Algeria"
+  - option "American Samoa"
+  - option "Andorra"
+  - option "Angola"
+  - option "Anguilla"
+  - option "Antarctica"
+  - option "Antigua and Barbuda"
+  - option "Argentina"
+  - option "Armenia"
+  - option "Aruba"
+  - option "Ascension Island (British)"
+  - option "Australia"
+  - option "Austria"
+  - option "Azerbaijan"
+  - option "Bahamas"
+  - option "Bahrain"
+  - option "Bangladesh"
+  - option "Barbados"
+  - option "Belarus"
+  - option "Belgium"
+  - option "Belize"
+  - option "Benin"
+  - option "Bermuda"
+  - option "Bhutan"
+  - option "Bolivia"
+  - option "Bonaire, Sint Eustatius and Saba"
+  - option "Bosnia and Herzegovina"
+  - option "Botswana"
+  - option "Bouvet Island"
+  - option "Brazil"
+  - option "British Indian Ocean Territory"
+  - option "Brunei Darussalam"
+  - option "Bulgaria"
+  - option "Burkina Faso"
+  - option "Burundi"
+  - option "Cambodia"
+  - option "Cameroon"
+  - option "Canada"
+  - option "Canary Islands"
+  - option "Cape Verde"
+  - option "Cayman Islands"
+  - option "Central African Republic"
+  - option "Chad"
+  - option "Chile"
+  - option "China"
+  - option "Christmas Island"
+  - option "Cocos (Keeling) Islands"
+  - option "Colombia"
+  - option "Comoros"
+  - option "Congo"
+  - option "Cook Islands"
+  - option "Costa Rica"
+  - option "Cote D'Ivoire"
+  - option "Croatia"
+  - option "Cuba"
+  - option "Curacao"
+  - option "Cyprus"
+  - option "Czech Republic"
+  - option "Democratic Republic of Congo"
+  - option "Denmark"
+  - option "Djibouti"
+  - option "Dominica"
+  - option "Dominican Republic"
+  - option "East Timor"
+  - option "Ecuador"
+  - option "Egypt"
+  - option "El Salvador"
+  - option "Equatorial Guinea"
+  - option "Eritrea"
+  - option "Estonia"
+  - option "Ethiopia"
+  - option "Falkland Islands (Malvinas)"
+  - option "Faroe Islands"
+  - option "Fiji"
+  - option "Finland"
+  - option "France, Metropolitan"
+  - option "French Guiana"
+  - option "French Polynesia"
+  - option "French Southern Territories"
+  - option "FYROM"
+  - option "Gabon"
+  - option "Gambia"
+  - option "Georgia"
+  - option "Germany"
+  - option "Ghana"
+  - option "Gibraltar"
+  - option "Greece"
+  - option "Greenland"
+  - option "Grenada"
+  - option "Guadeloupe"
+  - option "Guam"
+  - option "Guatemala"
+  - option "Guernsey"
+  - option "Guinea"
+  - option "Guinea-Bissau"
+  - option "Guyana"
+  - option "Haiti"
+  - option "Heard and Mc Donald Islands"
+  - option "Honduras"
+  - option "Hong Kong"
+  - option "Hungary"
+  - option "Iceland"
+  - option "India"
+  - option "Indonesia"
+  - option "Iran (Islamic Republic of)"
+  - option "Iraq"
+  - option "Ireland"
+  - option "Isle of Man"
+  - option "Israel"
+  - option "Italy"
+  - option "Jamaica"
+  - option "Japan"
+  - option "Jersey"
+  - option "Jordan"
+  - option "Kazakhstan"
+  - option "Kenya"
+  - option "Kiribati"
+  - option "Kosovo, Republic of"
+  - option "Kuwait"
+  - option "Kyrgyzstan"
+  - option "Lao People's Democratic Republic"
+  - option "Latvia"
+  - option "Lebanon"
+  - option "Lesotho"
+  - option "Liberia"
+  - option "Libyan Arab Jamahiriya"
+  - option "Liechtenstein"
+  - option "Lithuania"
+  - option "Luxembourg"
+  - option "Macau"
+  - option "Madagascar"
+  - option "Malawi"
+  - option "Malaysia"
+  - option "Maldives"
+  - option "Mali"
+  - option "Malta"
+  - option "Marshall Islands"
+  - option "Martinique"
+  - option "Mauritania"
+  - option "Mauritius"
+  - option "Mayotte"
+  - option "Mexico" [selected]
+  - option "Micronesia, Federated States of"
+  - option "Moldova, Republic of"
+  - option "Monaco"
+  - option "Mongolia"
+  - option "Montenegro"
+  - option "Montserrat"
+  - option "Morocco"
+  - option "Mozambique"
+  - option "Myanmar"
+  - option "Namibia"
+  - option "Nauru"
+  - option "Nepal"
+  - option "Netherlands"
+  - option "Netherlands Antilles"
+  - option "New Caledonia"
+  - option "New Zealand"
+  - option "Nicaragua"
+  - option "Niger"
+  - option "Nigeria"
+  - option "Niue"
+  - option "Norfolk Island"
+  - option "North Korea"
+  - option "Northern Mariana Islands"
+  - option "Norway"
+  - option "Oman"
+  - option "Pakistan"
+  - option "Palau"
+  - option "Palestinian Territory, Occupied"
+  - option "Panama"
+  - option "Papua New Guinea"
+  - option "Paraguay"
+  - option "Peru"
+  - option "Philippines"
+  - option "Pitcairn"
+  - option "Poland"
+  - option "Portugal"
+  - option "Puerto Rico"
+  - option "Qatar"
+  - option "Reunion"
+  - option "Romania"
+  - option "Russian Federation"
+  - option "Rwanda"
+  - option "Saint Kitts and Nevis"
+  - option "Saint Lucia"
+  - option "Saint Vincent and the Grenadines"
+  - option "Samoa"
+  - option "San Marino"
+  - option "Sao Tome and Principe"
+  - option "Saudi Arabia"
+  - option "Senegal"
+  - option "Serbia"
+  - option "Seychelles"
+  - option "Sierra Leone"
+  - option "Singapore"
+  - option "Slovak Republic"
+  - option "Slovenia"
+  - option "Solomon Islands"
+  - option "Somalia"
+  - option "South Africa"
+  - option "South Georgia & South Sandwich Islands"
+  - option "South Korea"
+  - option "South Sudan"
+  - option "Spain"
+  - option "Sri Lanka"
+  - option "St. Barthelemy"
+  - option "St. Helena"
+  - option "St. Martin (French part)"
+  - option "St. Pierre and Miquelon"
+  - option "Sudan"
+  - option "Suriname"
+  - option "Svalbard and Jan Mayen Islands"
+  - option "Swaziland"
+  - option "Sweden"
+  - option "Switzerland"
+  - option "Syrian Arab Republic"
+  - option "Taiwan"
+  - option "Tajikistan"
+  - option "Tanzania, United Republic of"
+  - option "Thailand"
+  - option "Togo"
+  - option "Tokelau"
+  - option "Tonga"
+  - option "Trinidad and Tobago"
+  - option "Tristan da Cunha"
+  - option "Tunisia"
+  - option "Turkey"
+  - option "Turkmenistan"
+  - option "Turks and Caicos Islands"
+  - option "Tuvalu"
+  - option "Uganda"
+  - option "Ukraine"
+  - option "United Arab Emirates"
+  - option "United Kingdom"
+  - option "United States"
+  - option "United States Minor Outlying Islands"
+  - option "Uruguay"
+  - option "Uzbekistan"
+  - option "Vanuatu"
+  - option "Vatican City State (Holy See)"
+  - option "Venezuela"
+  - option "Viet Nam"
+  - option "Virgin Islands (British)"
+  - option "Virgin Islands (U.S.)"
+  - option "Wallis and Futuna Islands"
+  - option "Western Sahara"
+  - option "Yemen"
+  - option "Zambia"
+  - option "Zimbabwe"
+- text: "* Region / State"
+- combobox "* Region / State":
+  - option "--- Please Select ---"
+  - option "Aguascalientes"
+  - option "Baja California Norte"
+  - option "Baja California Sur"
+  - option "Campeche"
+  - option "Chiapas"
+  - option "Chihuahua"
+  - option "Coahuila de Zaragoza"
+  - option "Colima"
+  - option "Distrito Federal" [selected]
+  - option "Durango"
+  - option "Guanajuato"
+  - option "Guerrero"
+  - option "Hidalgo"
+  - option "Jalisco"
+  - option "Mexico"
+  - option "Michoacan de Ocampo"
+  - option "Morelos"
+  - option "Nayarit"
+  - option "Nuevo Leon"
+  - option "Oaxaca"
+  - option "Puebla"
+  - option "Queretaro de Arteaga"
+  - option "Quintana Roo"
+  - option "San Luis Potosi"
+  - option "Sinaloa"
+  - option "Sonora"
+  - option "Tabasco"
+  - option "Tamaulipas"
+  - option "Tlaxcala"
+  - option "Veracruz-Llave"
+  - option "Yucatan"
+  - option "Zacatecas"
+- button "Continue"
+- 'heading "Step 3: Delivery Details" [level=4]'
+- 'heading "Step 4: Delivery Method" [level=4]'
+- 'heading "Step 5: Payment Method" [level=4]'
+- 'heading "Step 6: Confirm Order" [level=4]'
+- contentinfo:
+  - heading "Information" [level=5]
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=4
+    - listitem:
+      - link "Delivery Information":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=6
+    - listitem:
+      - link "Privacy Policy":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=3
+    - listitem:
+      - link "Terms & Conditions":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=5
+  - heading "Customer Service" [level=5]
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/contact
+    - listitem:
+      - link "Returns":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/return/add
+    - listitem:
+      - link "Site Map":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/sitemap
+  - heading "Extras" [level=5]
+  - list:
+    - listitem:
+      - link "Brands":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/manufacturer
+    - listitem:
+      - link "Gift Certificates":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/voucher
+    - listitem:
+      - link "Affiliate":
+        - /url: https://opencart.abstracta.us:443/index.php?route=affiliate/login
+    - listitem:
+      - link "Specials":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/special
+  - heading "My Account" [level=5]
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/account
+    - listitem:
+      - link "Order History":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/order
+    - listitem:
+      - link "Wish List":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/wishlist
+    - listitem:
+      - link "Newsletter":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/newsletter
+  - separator
+  - paragraph:
+    - text: Powered By
+    - link "OpenCart":
+      - /url: http://www.opencart.com
+    - text: Your Store © 2025
+- link "Bitnami":
+  - /url: /bitnami/index.html
+  - img "Bitnami"
+```

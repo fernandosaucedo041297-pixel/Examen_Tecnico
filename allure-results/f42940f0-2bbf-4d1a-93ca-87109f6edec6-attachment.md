@@ -1,0 +1,254 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - button "$ Currency ":
+    - strong: $
+    - text: Currency 
+  - list:
+    - listitem:
+      - link "":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/contact
+      - text: "123456789"
+    - listitem:
+      - link " My Account":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/account
+    - listitem:
+      - link " Wish List (0)":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/wishlist
+    - listitem:
+      - link " Shopping Cart":
+        - /url: http://opencart.abstracta.us:80/index.php?route=checkout/cart
+    - listitem:
+      - link " Checkout":
+        - /url: https://opencart.abstracta.us:443/index.php?route=checkout/checkout
+- banner:
+  - heading "Your Store" [level=1]:
+    - link "Your Store":
+      - /url: http://opencart.abstracta.us:80/index.php?route=common/home
+  - textbox "Search": Samsung Galaxy Tab 10.1
+  - button ""
+  - button " 1 item(s) - $199.99" [expanded]
+  - list:
+    - listitem:
+      - table:
+        - rowgroup:
+          - row "Samsung Galaxy Tab 10.1 Samsung Galaxy Tab 10.1 x 1 $199.99 ":
+            - cell "Samsung Galaxy Tab 10.1":
+              - link "Samsung Galaxy Tab 10.1":
+                - /url: http://opencart.abstracta.us:80/index.php?route=product/product&product_id=49
+                - img "Samsung Galaxy Tab 10.1"
+            - cell "Samsung Galaxy Tab 10.1":
+              - link "Samsung Galaxy Tab 10.1":
+                - /url: http://opencart.abstracta.us:80/index.php?route=product/product&product_id=49
+            - cell "x 1"
+            - cell "$199.99"
+            - cell "":
+              - button ""
+    - listitem:
+      - table:
+        - rowgroup:
+          - row "Sub-Total $199.99":
+            - cell "Sub-Total":
+              - strong: Sub-Total
+            - cell "$199.99"
+          - row "Total $199.99":
+            - cell "Total":
+              - strong: Total
+            - cell "$199.99"
+      - paragraph:
+        - link " View Cart":
+          - /url: http://opencart.abstracta.us:80/index.php?route=checkout/cart
+          - strong:  View Cart
+        - link " Checkout":
+          - /url: https://opencart.abstracta.us:443/index.php?route=checkout/checkout
+          - strong:  Checkout
+- navigation:
+  - list:
+    - listitem:
+      - link "Desktops":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=20
+    - listitem:
+      - link "Laptops & Notebooks":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=18
+    - listitem:
+      - link "Components":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=25
+    - listitem:
+      - link "Tablets":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=57
+    - listitem:
+      - link "Software":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=17
+    - listitem:
+      - link "Phones & PDAs":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=24
+    - listitem:
+      - link "Cameras":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=33
+    - listitem:
+      - link "MP3 Players":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/category&path=34
+- list:
+  - listitem:
+    - link "":
+      - /url: http://opencart.abstracta.us:80/index.php?route=common/home
+  - listitem:
+    - link "Search":
+      - /url: http://opencart.abstracta.us:80/index.php?route=product/search&search=Samsung+Galaxy+Tab+10.1
+- text: " Success: You have added"
+- link "Samsung Galaxy Tab 10.1":
+  - /url: http://opencart.abstracta.us:80/index.php?route=product/product&product_id=49
+- text: to your
+- link "shopping cart":
+  - /url: http://opencart.abstracta.us:80/index.php?route=checkout/cart
+- text: "!"
+- button "×"
+- heading "Search - Samsung Galaxy Tab 10.1" [level=1]
+- text: Search Criteria
+- textbox "Search Criteria": Samsung Galaxy Tab 10.1
+- combobox:
+  - option "Categories" [selected]
+  - option "Desktops"
+  - option "PC"
+  - option "Mac"
+  - option "Laptops & Notebooks"
+  - option "Macs"
+  - option "Windows"
+  - option "Components"
+  - option "Mice and Trackballs"
+  - option "Monitors"
+  - option "test 1"
+  - option "test 2"
+  - option "Printers"
+  - option "Scanners"
+  - option "Web Cameras"
+  - option "Tablets"
+  - option "Software"
+  - option "Phones & PDAs"
+  - option "Cameras"
+  - option "MP3 Players"
+  - option "test 11"
+  - option "test 12"
+  - option "test 15"
+  - option "test 16"
+  - option "test 17"
+  - option "test 18"
+  - option "test 19"
+  - option "test 20"
+  - option "test 25"
+  - option "test 21"
+  - option "test 22"
+  - option "test 23"
+  - option "test 24"
+  - option "test 4"
+  - option "test 5"
+  - option "test 6"
+  - option "test 7"
+  - option "test 8"
+  - option "test 9"
+- checkbox "Search in subcategories" [disabled]
+- text: Search in subcategories
+- paragraph:
+  - checkbox "Search in product descriptions"
+  - text: Search in product descriptions
+- button "Search"
+- heading "Search" [level=2]
+- button ""
+- button ""
+- link "Product Compare (0)":
+  - /url: http://opencart.abstracta.us:80/index.php?route=product/compare
+- text: "Sort By:"
+- combobox "Sort By:":
+  - option "Default" [selected]
+  - option "Name (A - Z)"
+  - option "Name (Z - A)"
+  - option "Price (Low > High)"
+  - option "Price (High > Low)"
+  - option "Rating (Highest)"
+  - option "Rating (Lowest)"
+  - option "Model (A - Z)"
+  - option "Model (Z - A)"
+- text: "Show:"
+- combobox "Show:":
+  - option "15" [selected]
+  - option "25"
+  - option "50"
+  - option "75"
+  - option "100"
+- link "Samsung Galaxy Tab 10.1":
+  - /url: http://opencart.abstracta.us:80/index.php?route=product/product&product_id=49&search=Samsung+Galaxy+Tab+10.1
+  - img "Samsung Galaxy Tab 10.1"
+- heading "Samsung Galaxy Tab 10.1" [level=4]:
+  - link "Samsung Galaxy Tab 10.1":
+    - /url: http://opencart.abstracta.us:80/index.php?route=product/product&product_id=49&search=Samsung+Galaxy+Tab+10.1
+- paragraph: Samsung Galaxy Tab 10.1, is the world’s thinnest tablet, measuring 8.6 mm thickness, running w..
+- paragraph: "$199.99 Ex Tax: $199.99"
+- button " Add to Cart"
+- button ""
+- button ""
+- text: Showing 1 to 1 of 1 (1 Pages)
+- contentinfo:
+  - heading "Information" [level=5]
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=4
+    - listitem:
+      - link "Delivery Information":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=6
+    - listitem:
+      - link "Privacy Policy":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=3
+    - listitem:
+      - link "Terms & Conditions":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/information&information_id=5
+  - heading "Customer Service" [level=5]
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/contact
+    - listitem:
+      - link "Returns":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/return/add
+    - listitem:
+      - link "Site Map":
+        - /url: http://opencart.abstracta.us:80/index.php?route=information/sitemap
+  - heading "Extras" [level=5]
+  - list:
+    - listitem:
+      - link "Brands":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/manufacturer
+    - listitem:
+      - link "Gift Certificates":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/voucher
+    - listitem:
+      - link "Affiliate":
+        - /url: https://opencart.abstracta.us:443/index.php?route=affiliate/login
+    - listitem:
+      - link "Specials":
+        - /url: http://opencart.abstracta.us:80/index.php?route=product/special
+  - heading "My Account" [level=5]
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/account
+    - listitem:
+      - link "Order History":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/order
+    - listitem:
+      - link "Wish List":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/wishlist
+    - listitem:
+      - link "Newsletter":
+        - /url: https://opencart.abstracta.us:443/index.php?route=account/newsletter
+  - separator
+  - paragraph:
+    - text: Powered By
+    - link "OpenCart":
+      - /url: http://www.opencart.com
+    - text: Your Store © 2025
+- link "Bitnami":
+  - /url: /bitnami/index.html
+  - img "Bitnami"
+```
